@@ -1,5 +1,6 @@
 package slice
 
+// スライスaからnumberを削除します
 func Remove(a []int, number int) []int {
 	var index int
 	for i := 0; i < len(a); i++ {
